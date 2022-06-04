@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .body {
+        font: 100;
+        /* background-color: aquamarine;*/
+    }
+
+    .top1 {
+        /*background-color: rgb(157, 127, 255);*/
+        height: 108vh;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .top1a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .top1b {
+        background-color: black;
+        height: 9vh;
+        width: 89%;
+        margin-left: 6.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home {
+        color: white;
+        height: 100%;
+        width: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    :hover.home {
+        color: red;
+    }
+
+    .serch1 {
+        color: white;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        border-radius: 15px;
+        height: 50%;
+        width: 70%;
+        background-color: black;
+        border: solid;
+        border-color: blue;
+        color: white;
+    }
+
+    .logo {
+        height: 100%;
+        width: 20%;
+
+    }
+
+    .image {
+        height: 90vh;
+        width: 100%;
+        background-image: url(phoca_thumb_l_7.jpg);
+        animation: changeImage 20s linear infinite;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    @keyframes changeImage {
+        0%{
+            background-image: url(phoca_thumb_l_7.jpg);
+        }
+        25%{
+            background-image: url(563717_liz-allen-library-aisle.jpg);
+        }
+        50%{
+            background-image: url(hauppauge-computer-lab.jpg);
+        }
+        75%{
+            background-image: url(photo1.jpeg);
+        }
+        100%{
+            background-image: url(phoca_thumb_l_21.jpg);
+        }
+    }
+
+    .midbobody {
+        background-color: black;
+        height: 50vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .row1 {
+        padding-top: 15px;
+        background-color: orangered;
+        height: 100%;
+        width: 25%;
+
+    }
+
+    .row2 {
+        padding-top: 15px;
+        background-color: black;
+        height: 100%;
+        width: 25%;
+    }
+
+    .body4m {
+        width: 100%;
+        background-color: black;
+    }
+
+    .body4 {
+        width: 100%;
+        height: 7cm;
+        background-color: black;
+        color: white;
+        display: flex;
+    }
+
+    .body4a {
+        width: 10%;
+        height: 7cm;
+        color: white;
+        display: flex;
+    }
+
+    .body4b {
+        width: 25%;
+        height: 7cm;
+        /*background-color: rgb(240, 228, 228);*/
+    }
+
+    .body4c {
+        padding-left: 4px;
+        width: 25%;
+        height: 7cm;
+        /*background-color: rgb(240, 31, 31);*/
+        color: white;
+    }
+
+    .body4d {
+        width: 25%;
+        height: 7cm;
+        color: white;
+    }
+
+    .body4e {
+        width: 14%;
+        height: 7cm;
+        color: white;
+    }
+
+    .body5 {
+        padding-left: 10px;
+        width: 100%;
+        height: 2cm;
+        background-color: black;
+        color: white;
+    }
+
+    .about {
+
+        width: 100%;
+        height: 50vh;
+        background-color: azure;
+    }
+
+    .about1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .EvaluationSystem {
+        width: 100%;
+        height: 300vh;
+        background-color: azure;
+    }
+
+    .EvaluationSystem1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .AdmissionInformation1 {
+        width: 100%;
+        height: 50vh;
+        background-color: azure;
+    }
+
+    .AdmissionInformation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ProgramsOffered {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        background-color: azure;
+    }
+
+    .hep {
+        color: white;
+        text-decoration: none;
+    }
+
+    :hover.hep {
+        color: red;
+    }
+
+    .butt {
+        background-color: red;
+        border: none;
+    }
+
+    .tab {
+        border: solid;
+    }
+
+    .image1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .space{
+        width: 100%;
+        height: 5vh;
+        background-color: white;
+    }
+</style>
+
+<body class="body">
+    <div class="top1">
+        <div class="top1a"><img class="logo" src="1653743789174.jpg" alt="">
+            <img class="logo" src="logo2.jpeg" alt="">
+        </div>
+        <div class="top1b">
+            <div class="home"><a class="hep" href="">Home</a> </div>
+            <div class="home"><a class="hep" href="">Programs Offered</a></div>
+            <div class="home"><a class="hep" href="">Evaluation System</a></div>
+            <div class="home"><a class="hep" href="">Admission Information</a></div>
+            <div class="home"><a class="hep" href="">Members</a></div>
+            <div class="serch1"><input class="input" type="text" placeholder="Search"></div>
+        </div>
+        <div class="image">
+
+        </div>
+    </div>
+    <div class="midbobody">
+        <div class="row1"> <img src="teacher1.jpeg" alt="">
+            <h2>Certified Teachers</h2>
+            <h3>
+            </h3>
+        </div>
+        <div class="row2"><img src="studying.jpeg" alt="">
+            <h2>Special Education</h2>
+            <h3>
+            </h3>
+        </div>
+        <div class="row1"><img src="ooo.jpeg" alt="">
+            <h2>Book & Library</h2>
+            <h3>
+            </h3>
+        </div>
+        <div class="row2"><img src="spot.jpeg" alt="">
+            <h2>
+                <h2>Sport Clubs</h2>
+                <h3></h3>
+            </h2>
+        </div>
+
+    </div>
+    <div class="space"></div>
+  
+    <div class="body4m">
+        <div class="body4">
+            <div class="body4a"> </div>
+            <div class="body4b">
+                <h3>
+                    Newsletter</h3>
+                <br>
+                <p>Make sure you dont miss interesting happenings by joining our newsletter program.</p>
+                <input type="text" placeholder="E-maile"> <input type="button" class="butt" value="Subscribe"
+                    placeholder="Subscribe">
+            </div>
+            <div class="body4c">
+                <h3>Contact us</h3>
+                <p>Please contact us if you have any queries</p>
+                <p>Phone: +977-56-593782, 593931, 9855050860</p>
+                <p>Email: <a href="" class="hep"> unitedtechnicalcollege@gmail.com</a></p>
+                <p>Email: <a href="" class="hep"> info@unitedtechnicalcollege.edu.np </a></p>
+            </div>
+            <div class="body4d">
+                <h3>Connect With Us</h3>
+                <div><a href=""><img src="facebook.jpeg" alt=""></a></div>
+
+            </div>
+            <div class="body4e"> </div>
+
+        </div>
+        <div class="body5">
+            <p>Copyright © 2022 Sangit . All Rights Reserved. Designed by Sangit.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
